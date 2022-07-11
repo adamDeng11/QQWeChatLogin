@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity implements IButton {
         setContentView(R.layout.activity_main);
 
         loginThroughTencent = new LoginThroughTencent(this);
+
         loginThroughTencent.setOnclickCallback(this);
         loginThroughTencent.showMultipleLogin();
 
